@@ -40,6 +40,9 @@ const Canvas = ({ details }) => {
 
   return (
     <canvas
+      data-scroll
+      data-scroll-speed={Math.random().toFixed(1)}
+
       ref={cavasRef}
       className="absolute"
       style={{

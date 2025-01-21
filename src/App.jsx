@@ -18,11 +18,11 @@ const App = () => {
     setBgColor(newColor);
     const newTextColor = textColor === "#fff" ? "#000" : "#fff";
     setTextColor(newTextColor);
-    
+
     gsap.to(document.body, {
       backgroundColor: newColor,
       duration: 1.5,
-      ease: "power2.inOut"
+      ease: "power2.inOut",
     });
 
     gsap.to("body, div, h1, h3, p, nav, ul, li", {
@@ -30,7 +30,6 @@ const App = () => {
       duration: 1.5,
       ease: "power2.inOut",
     });
-
   };
 
   return (
@@ -60,14 +59,15 @@ const App = () => {
           <div className="w-full h-screen py-[8%]">
             <div className="textcontainer w-full px-[20%]">
               <div className="text w-[50%]">
-                <h3 className="text-3xl leading-[1]">
-                  At Thirtysixstudio, we build immersive digital experiences for
-                  brands with a purpose.
+                <h3 className="text-4xl leading-[1.1]">
+                  Passionate Developer Crafting Immersive Digital Experiences
                 </h3>
                 <p className="w-[80%] mt-8 text-xs">
-                  We are a team of designers, developers, and strategists who
-                  are passionate about creating digital experiences that are
-                  both beautiful and functional.
+                  Hello! I’m a full-stack developer with expertise in a range of
+                  modern technologies and programming languages. From building
+                  interactive user interfaces to developing scalable backends ,
+                  I thrive in creating solutions that are both innovative and
+                  functional.
                 </p>
                 <p className="text-md mt-10">scroll</p>
               </div>

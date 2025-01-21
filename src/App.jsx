@@ -3,7 +3,7 @@ import Canvas from './Canvas'
 const App = () => {
   return (
     <>
-      <div className='w-full min-h-screen bg-zinc-800'>
+      <div className='w-full min-h-screen bg-black'>
       <Canvas/>
     </div>
     </>
